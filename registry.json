@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "skills": [
+    {
+      "id": "cli-worker-delegation",
+      "summary": "将有界本地任务委派给 Cursor 或 Grok CLI；显式授权编辑，主 agent 独立核验。",
+      "origin": "self-authored",
+      "repo": "toolazytoname/cli-worker-delegation",
+      "skill_path": "SKILL.md",
+      "category": "Agent 编排",
+      "visibility": "private",
+      "default_branch": "main",
+      "observed_commit": "e774cf279d34be531fb003b2618a2ab21852efe7",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null,
+      "tests": {
+        "command": "python3 -m unittest discover -s tests -v",
+        "result": "34 passed; fake CLIs only",
+        "checked_at": "2026-09-12T20:42:04-07:00"
+      },
+      "requirements": [
+        "Python 3.10+",
+        "macOS/Linux POSIX",
+        "Cursor CLI or Grok CLI with valid authentication"
+      ]
+    },
+    {
+      "id": "reality-handshake",
+      "summary": "Real-world hands-on protocols — practical tooling for everyday problems.",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/reality-handshake",
+      "skill_path": "SKILL.md",
+      "category": "网络与家庭基础设施",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "9ecdaa0990eb837e4c1b05a72561fa74daaa45f5",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "yinxiang-export",
+      "summary": "Archive-first Yinxiang local export: preserved source, Markdown reading layer, and an Agent Skill.",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/yinxiang-export",
+      "skill_path": ".agents/skills/yinxiang-export/SKILL.md",
+      "category": "数据与知识管理",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "f1df32041a404ba794c785d4a179978463ba4fc6",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "cn-electronics-shop",
+      "summary": "国内数码选购顾问 Skill：拆需求、京东/天猫/闲鱼比价、验闲鱼、叠国补和大促",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/cn-electronics-shop",
+      "skill_path": "SKILL.md",
+      "category": "生活工具",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "0755d84cbcd96131b0d8d4cf9f027d24faba6d67",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "dsh-deploy",
+      "summary": "Skill and templates to deploy DeepSeek Harness (dsh web) behind nginx + Tailscale Funnel, with Safari cookie auth and remote-settings patches",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/dsh-deploy",
+      "skill_path": "SKILL.md",
+      "category": "部署与运维",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "c46fe9497f31c7e6b87ec171cad086e0e94e0bd4",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "paseo-relay-deploy",
+      "summary": "Skill: 自托管 Paseo WebSocket 中继，让手机 App 在不开 Tailscale 的情况下控制多台工作机。含 keepmind9 空 sync/keepalive 补丁、中国大陆云 Funnel 443、可选 Mihomo TUN fail-close。",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/paseo-relay-deploy",
+      "skill_path": "SKILL.md",
+      "category": "部署与运维",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "ebf8f281520c2a65dd5b4e716a5f6d878a3508a7",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "home-nas-skill",
+      "summary": "把旧 x86 小主机搭成全自动家庭媒体中心：*arr + Jellyfin + Immich + 音乐书库。含大陆镜像/代理与弱 CPU 1080p 直放的实战手册（Claude Skill）。",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/home-nas-skill",
+      "skill_path": "SKILL.md",
+      "category": "网络与家庭基础设施",
+      "visibility": "public",
+      "default_branch": "initial-release",
+      "observed_commit": "d8fa92883957e19c45654ba3977d0fdb1887591c",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "grok-imagine-on-plan",
+      "summary": "Agent skill: generate images and videos on SuperGrok/Grok coding-plan quota via Grok Build tools",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/grok-imagine-on-plan",
+      "skill_path": "SKILL.md",
+      "category": "内容与媒体",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "c5f2d62a5de591183c1e4c2225def2dee087ba8e",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    },
+    {
+      "id": "happy-relay-deploy",
+      "summary": "Kimi skill: 自托管 Happy 中继（happy-server-light）部署与维护 —— 手机远程控制多台机器上的 Claude Code。含中国大陆机房未备案域名的 HTTPS 绕行方案、v3 API 兼容补丁、运维排障手册。",
+      "origin": "owner-repository-authorship-unreviewed",
+      "repo": "toolazytoname/happy-relay-deploy",
+      "skill_path": "SKILL.md",
+      "category": "部署与运维",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "6cae04982121a25ec4a0470c2e47941d67ecb5ed",
+      "source_checked_at": "2026-09-12T20:42:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null
+    }
+  ]
+}
