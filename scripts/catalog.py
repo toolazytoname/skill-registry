@@ -22,7 +22,7 @@ def render():
         assert s['skill_path'].endswith('SKILL.md')
         groups.setdefault(s['category'], []).append(s)
     out = ['# Personal Skill Registry', '',
-           '> 私有 Skill 台账：索引聚合，不复制或接管来源仓库。', '',
+           '> 公开 Skill 台账：索引聚合，不复制或接管来源仓库。', '',
            '结构化数据的唯一来源是 `registry.json`；此首页由 `scripts/catalog.py` 生成。', '',
            '## 导航', '',
            '- [维护约定](docs/conventions.md)',

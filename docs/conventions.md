@@ -2,6 +2,8 @@
 
 ## 范围与唯一来源
 
+- 本聚合仓库现为 public；仅登记适合公开的信息，不公开私有来源详情。
+
 - 每个 Skill 保留独立来源仓库；工具项目内附带的 Skill 可以登记子目录。
 - `registry.json` 是目录元数据的唯一来源；README 自动生成。不引入源码副本或 submodule。
 - 原创、fork、第三方必须区分。账户拥有仓库不代表原创；未审查时标记 `owner-repository-authorship-unreviewed`。

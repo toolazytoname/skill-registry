@@ -1,6 +1,6 @@
 # Personal Skill Registry
 
-> 私有 Skill 台账：索引聚合，不复制或接管来源仓库。
+> 公开 Skill 台账：索引聚合，不复制或接管来源仓库。
 
 结构化数据的唯一来源是 `registry.json`；此首页由 `scripts/catalog.py` 生成。
 
@@ -16,7 +16,7 @@
 
 | Skill | 用途 | 来源可见性 |
 | --- | --- | --- |
-| [cli-worker-delegation](https://github.com/toolazytoname/cli-worker-delegation/blob/e774cf279d34be531fb003b2618a2ab21852efe7/SKILL.md) | 将有界本地任务委派给 Cursor 或 Grok CLI；显式授权编辑，主 agent 独立核验。 | private |
+| [cli-worker-delegation](https://github.com/toolazytoname/cli-worker-delegation/blob/e774cf279d34be531fb003b2618a2ab21852efe7/SKILL.md) | 将有界本地任务委派给 Cursor 或 Grok CLI；显式授权编辑，主 agent 独立核验。 | public |
 
 ## 网络与家庭基础设施
 

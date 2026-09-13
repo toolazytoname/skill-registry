@@ -8,7 +8,7 @@
       "repo": "toolazytoname/cli-worker-delegation",
       "skill_path": "SKILL.md",
       "category": "Agent 编排",
-      "visibility": "private",
+      "visibility": "public",
       "default_branch": "main",
       "observed_commit": "e774cf279d34be531fb003b2618a2ab21852efe7",
       "source_checked_at": "2026-09-12T20:42:04-07:00",
