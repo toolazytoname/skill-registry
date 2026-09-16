@@ -26,6 +26,29 @@
       ]
     },
     {
+      "id": "agent-progress",
+      "summary": "通用 agent 进度看板：JSON 单一事实源 + 标准库 CLI + 自包含深色 HTML 看板（统计卡/阶段条形图/验收矩阵/时间线）；done 必须带证据，worker 只报到 review。",
+      "origin": "self-authored",
+      "repo": "toolazytoname/agent-progress",
+      "skill_path": "SKILL.md",
+      "category": "Agent 编排",
+      "visibility": "public",
+      "default_branch": "main",
+      "observed_commit": "1c66495e78f22d01d309531445fb6284fed82fe7",
+      "source_checked_at": "2026-09-16T01:25:04-07:00",
+      "status": "indexed",
+      "runtime_verified_at": "2026-09-16T01:25:04-07:00",
+      "tests": {
+        "command": "python3 -m unittest discover -s tests -v",
+        "result": "18 passed; CLI 级测试含并发写入，另 render demo 经无头 Chrome 截图人工验收",
+        "checked_at": "2026-09-16T01:25:04-07:00"
+      },
+      "requirements": [
+        "Python 3.10+",
+        "macOS/Linux POSIX (fcntl)"
+      ]
+    },
+    {
       "id": "reality-handshake",
       "summary": "Real-world hands-on protocols — practical tooling for everyday problems.",
       "origin": "owner-repository-authorship-unreviewed",
