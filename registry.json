@@ -159,6 +159,31 @@
       "source_checked_at": "2026-09-12T20:42:04-07:00",
       "status": "indexed",
       "runtime_verified_at": null
+    },
+    {
+      "id": "appstore-submit",
+      "summary": "iOS App 上架 App Store 端到端流程：xcodebuild 归档上传、ASC 网页自动化（元数据/截图/隐私/定价/分级/提交）、官网与隐私页部署、TestFlight；20 条实踩坑清单。",
+      "origin": "self-authored",
+      "repo": "toolazytoname/appstore-submit",
+      "skill_path": "SKILL.md",
+      "category": "Agent 编排",
+      "visibility": "private",
+      "default_branch": "main",
+      "observed_commit": "9f9a179f515632de72278205b4ef47652618f0c2",
+      "source_checked_at": "2026-09-17T03:46:00-07:00",
+      "status": "indexed",
+      "runtime_verified_at": "2026-09-17T03:46:00-07:00",
+      "tests": {
+        "command": "sh -n scripts/vercel-add-domain.sh && plutil -lint scripts/exportOptions-appstore.plist",
+        "result": "通过；流程内容已在 2026-09-17 一次真实上架（提交审核成功）中全程验证",
+        "checked_at": "2026-09-17T03:46:00-07:00"
+      },
+      "requirements": [
+        "macOS + Xcode (xcodebuild)",
+        "Apple Developer Program 账户",
+        "浏览器自动化能力（操作 App Store Connect）",
+        "Vercel CLI（可选，官网部署）"
+      ]
     }
   ]
 }
