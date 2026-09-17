@@ -18,7 +18,7 @@
 | --- | --- | --- |
 | [cli-worker-delegation](https://github.com/toolazytoname/cli-worker-delegation/blob/e774cf279d34be531fb003b2618a2ab21852efe7/SKILL.md) | 将有界本地任务委派给 Cursor 或 Grok CLI；显式授权编辑，主 agent 独立核验。 | public |
 | [agent-progress](https://github.com/toolazytoname/agent-progress/blob/1c66495e78f22d01d309531445fb6284fed82fe7/SKILL.md) | 通用 agent 进度看板：JSON 单一事实源 + 标准库 CLI + 自包含深色 HTML 看板（统计卡/阶段条形图/验收矩阵/时间线）；done 必须带证据，worker 只报到 review。 | public |
-| [appstore-submit](https://github.com/toolazytoname/appstore-submit/blob/9f9a179f515632de72278205b4ef47652618f0c2/SKILL.md) | iOS App 上架 App Store 端到端流程：xcodebuild 归档上传、ASC 网页自动化（元数据/截图/隐私/定价/分级/提交）、官网与隐私页部署、TestFlight；20 条实踩坑清单。 | public |
+| [appstore-submit](https://github.com/toolazytoname/appstore-submit/blob/907be6c6ad76eba148ce11fa874156a18d90aa48/SKILL.md) | iOS App 上架 App Store 端到端流程：fastlane/asc + API Key 脚本化为主线（Android 产品线双端统一），浏览器自动化兜底隐私/分级等网页独有操作；xcodebuild 上传、TestFlight、20 条实踩坑清单。 | public |
 
 ## 网络与家庭基础设施
 

@@ -27,3 +27,7 @@
 ## 2026-09-17 — appstore-submit 转 public
 
 - 经用户明确授权，将 appstore-submit 改为 public 并同步登记表可见性。
+
+## 2026-09-17 — appstore-submit 增加工具链路线
+
+- 新增 references/toolchain.md：fastlane（双端统一主线，含 Android supply/Google Play）/ asc（iOS 轻量备用）/ App Store Connect API Key 对比与命令模板；明确浏览器自动化只兜底隐私发布与分级问卷。
