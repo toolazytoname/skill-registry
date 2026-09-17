@@ -23,3 +23,7 @@
 - 新增 appstore-submit（private，Agent 编排）：iOS App 上架 App Store 端到端流程 Skill，源自 2026-09-17 一次真实上架复盘（提交审核成功，状态「正在等待审核」）。
 - 语法校验：shell/plist lint 通过；流程本身经真实运行验证，记录于 runtime_verified_at。
 - 仓库可见性未明确时按维护约定默认 private，后续可由用户转 public。
+
+## 2026-09-17 — appstore-submit 转 public
+
+- 经用户明确授权，将 appstore-submit 改为 public 并同步登记表可见性。

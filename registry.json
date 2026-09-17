@@ -167,10 +167,10 @@
       "repo": "toolazytoname/appstore-submit",
       "skill_path": "SKILL.md",
       "category": "Agent 编排",
-      "visibility": "private",
+      "visibility": "public",
       "default_branch": "main",
       "observed_commit": "9f9a179f515632de72278205b4ef47652618f0c2",
-      "source_checked_at": "2026-09-17T03:46:00-07:00",
+      "source_checked_at": "2026-09-17T03:50:00-07:00",
       "status": "indexed",
       "runtime_verified_at": "2026-09-17T03:46:00-07:00",
       "tests": {
