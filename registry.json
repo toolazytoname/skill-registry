@@ -162,15 +162,15 @@
     },
     {
       "id": "appstore-submit",
-      "summary": "iOS App 上架 App Store 端到端流程：fastlane/asc + API Key 脚本化为主线（Android 产品线双端统一），浏览器自动化兜底隐私/分级等网页独有操作；xcodebuild 上传、TestFlight、20 条实踩坑清单。",
+      "summary": "iOS App 上架 App Store 端到端流程：fastlane/asc + API Key 脚本化主线 + 浏览器自动化兜底网页独有操作；xcodebuild 上传、TestFlight、收款链路（W-8BEN/810）、Guideline 2.1 拒审回复全流程（真机演示录屏 iPhone Mirroring 路线、点击光圈、隐私自查）；51 条实踩坑清单。",
       "origin": "self-authored",
       "repo": "toolazytoname/appstore-submit",
       "skill_path": "SKILL.md",
       "category": "Agent 编排",
       "visibility": "public",
       "default_branch": "main",
-      "observed_commit": "907be6c6ad76eba148ce11fa874156a18d90aa48",
-      "source_checked_at": "2026-09-17T07:05:00-07:00",
+      "observed_commit": "21531eecbff82da8525f9e2294991bcecaa9a042",
+      "source_checked_at": "2026-09-18T17:32:00-07:00",
       "status": "indexed",
       "runtime_verified_at": "2026-09-17T03:46:00-07:00",
       "tests": {
@@ -183,7 +183,13 @@
         "Apple Developer Program 账户",
         "浏览器自动化能力（操作 App Store Connect）",
         "Vercel CLI（可选，官网部署）"
-      ]
+      ],
+      "installed_paths": [
+        "~/.agents/skills/appstore-submit",
+        "~/.zcode/skills/appstore-submit",
+        "~/.claude/skills/appstore-submit"
+      ],
+      "install_type": "symlink -> iosgit/.scratch/appstore-submit (git working copy)"
     }
   ]
 }
