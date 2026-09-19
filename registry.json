@@ -185,9 +185,7 @@
         "Vercel CLI（可选，官网部署）"
       ],
       "installed_paths": [
-        "~/.agents/skills/appstore-submit",
-        "~/.zcode/skills/appstore-submit",
-        "~/.claude/skills/appstore-submit"
+        "~/.agents/skills/appstore-submit (唯一安装点；~/.zcode/skills 与 ~/.claude/skills 为指向 ~/.agents/skills 的目录级软链)"
       ],
       "install_type": "symlink -> iosgit/.scratch/appstore-submit (git working copy)"
     }

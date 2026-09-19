@@ -61,3 +61,15 @@ python3 scripts/catalog.py --check
 ```
 
 第一条校验数据并生成首页；第二条只检查数据和首页是否一致。不联网、不安装、不覆盖本地 Skill。
+
+## 一键安装布局（2026-09-18 起）
+
+本机 skill 发现路径已整合为**单一存储**：`~/.agents/skills/` 为唯一真实目录，
+`~/.zcode/skills` 与 `~/.claude/skills` 均为指向它的**目录级软链**——装一个 skill
+只需放进 `~/.agents/skills/`，三个运行时（ZCode / Claude Code / CLI agents）全部可见。
+
+- 安装/更新：`scripts/install-skill.sh <skill-id> [本地git工作副本路径]`
+  - 不给本地路径则从 registry 记录的 GitHub 仓库克隆到 `~/.skill-worktrees/` 再软链；
+  - 给本地路径（如项目里的工作副本）则直接软链它，保持单一事实源，更新自动生效。
+- 查看状态：`scripts/install-skill.sh --list`
+- registry 条目约定：`installed_paths` 记录安装点；`install_type` 记录软链目标。
