@@ -49,6 +49,34 @@
       ]
     },
     {
+      "id": "codex-glm",
+      "summary": "Codex 拆解与审查、OpenCode GLM 通过个人 AO 配置实现有界任务。",
+      "origin": "self-authored",
+      "repo": "toolazytoname/codex-glm",
+      "skill_path": "SKILL.md",
+      "category": "Agent 编排",
+      "visibility": "private",
+      "default_branch": "main",
+      "observed_commit": "9fc5eb2940c2ddf31e9f9136aa7ad8ed4debfa9f",
+      "source_checked_at": "2026-09-28T08:32:00-07:00",
+      "status": "indexed",
+      "runtime_verified_at": null,
+      "tests": {
+        "command": "quick_validate.py <skill-folder>",
+        "result": "Skill is valid!; 未做真实 AO 任务运行验收",
+        "checked_at": "2026-09-28T08:32:00-07:00"
+      },
+      "requirements": [
+        "AO 0.13.0",
+        "OpenCode GLM 访问权限",
+        "个人 AO 项目配置"
+      ],
+      "installed_paths": [
+        "~/.agents/skills/codex-glm"
+      ],
+      "install_type": "symlink -> codex-glm (git working copy)"
+    },
+    {
       "id": "reality-handshake",
       "summary": "Real-world hands-on protocols — practical tooling for everyday problems.",
       "origin": "owner-repository-authorship-unreviewed",

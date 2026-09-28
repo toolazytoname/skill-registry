@@ -31,3 +31,8 @@
 ## 2026-09-17 — appstore-submit 增加工具链路线
 
 - 新增 references/toolchain.md：fastlane（双端统一主线，含 Android supply/Google Play）/ asc（iOS 轻量备用）/ App Store Connect API Key 对比与命令模板；明确浏览器自动化只兜底隐私发布与分级问卷。
+
+## 2026-09-28 — 登记 codex-glm
+
+- 独立 private 仓库 `toolazytoname/codex-glm` 发布现有 Skill；格式校验通过，尚未记录真实 AO 任务运行验收。
+- 登记到「Agent 编排」，本机安装点指向独立 Git 工作副本。
