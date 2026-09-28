@@ -55,7 +55,7 @@
       "repo": "toolazytoname/codex-glm",
       "skill_path": "SKILL.md",
       "category": "Agent 编排",
-      "visibility": "private",
+      "visibility": "public",
       "default_branch": "main",
       "observed_commit": "9fc5eb2940c2ddf31e9f9136aa7ad8ed4debfa9f",
       "source_checked_at": "2026-09-28T08:32:00-07:00",

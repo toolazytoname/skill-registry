@@ -36,3 +36,7 @@
 
 - 独立 private 仓库 `toolazytoname/codex-glm` 发布现有 Skill；格式校验通过，尚未记录真实 AO 任务运行验收。
 - 登记到「Agent 编排」，本机安装点指向独立 Git 工作副本。
+
+## 2026-09-28 — codex-glm 转 public
+
+- 按用户要求将独立 GitHub 仓库改为 public，并同步集合中的可见性。

@@ -18,7 +18,7 @@
 | --- | --- | --- |
 | [cli-worker-delegation](https://github.com/toolazytoname/cli-worker-delegation/blob/e774cf279d34be531fb003b2618a2ab21852efe7/SKILL.md) | 将有界本地任务委派给 Cursor 或 Grok CLI；显式授权编辑，主 agent 独立核验。 | public |
 | [agent-progress](https://github.com/toolazytoname/agent-progress/blob/1c66495e78f22d01d309531445fb6284fed82fe7/SKILL.md) | 通用 agent 进度看板：JSON 单一事实源 + 标准库 CLI + 自包含深色 HTML 看板（统计卡/阶段条形图/验收矩阵/时间线）；done 必须带证据，worker 只报到 review。 | public |
-| [codex-glm](https://github.com/toolazytoname/codex-glm/blob/9fc5eb2940c2ddf31e9f9136aa7ad8ed4debfa9f/SKILL.md) | Codex 拆解与审查、OpenCode GLM 通过个人 AO 配置实现有界任务。 | private |
+| [codex-glm](https://github.com/toolazytoname/codex-glm/blob/9fc5eb2940c2ddf31e9f9136aa7ad8ed4debfa9f/SKILL.md) | Codex 拆解与审查、OpenCode GLM 通过个人 AO 配置实现有界任务。 | public |
 | [appstore-submit](https://github.com/toolazytoname/appstore-submit/blob/21531eecbff82da8525f9e2294991bcecaa9a042/SKILL.md) | iOS App 上架 App Store 端到端流程：fastlane/asc + API Key 脚本化主线 + 浏览器自动化兜底网页独有操作；xcodebuild 上传、TestFlight、收款链路（W-8BEN/810）、Guideline 2.1 拒审回复全流程（真机演示录屏 iPhone Mirroring 路线、点击光圈、隐私自查）；51 条实踩坑清单。 | public |
 
 ## 网络与家庭基础设施
